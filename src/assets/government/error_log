@@ -1,0 +1,10 @@
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(../../session.php): Failed to open stream: No such file or directory in /home/yqkznkhu/public_html/assets/government/government.php on line 2
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(): Failed opening '../../session.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yqkznkhu/public_html/assets/government/government.php on line 2
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(../../functions.php): Failed to open stream: No such file or directory in /home/yqkznkhu/public_html/assets/government/government.php on line 3
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(): Failed opening '../../functions.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yqkznkhu/public_html/assets/government/government.php on line 3
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(../../check_login.php): Failed to open stream: No such file or directory in /home/yqkznkhu/public_html/assets/government/government.php on line 4
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  include(): Failed opening '../../check_login.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yqkznkhu/public_html/assets/government/government.php on line 4
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  Undefined variable $_SESSION in /home/yqkznkhu/public_html/assets/government/government.php on line 16
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yqkznkhu/public_html/assets/government/government.php on line 16
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  Undefined variable $_SESSION in /home/yqkznkhu/public_html/assets/government/government.php on line 16
+[05-Dec-2023 05:51:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yqkznkhu/public_html/assets/government/government.php on line 16

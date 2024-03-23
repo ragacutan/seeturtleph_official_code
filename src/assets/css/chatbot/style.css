@@ -1,0 +1,148 @@
+/* additional csss */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  .chat-container {
+    position: fixed;
+    bottom: 0; /* Align to the bottom */
+    right: 0; /* Align to the right */
+    width: 400px; /* Adjust the width as needed */
+    height: 450px;
+    background-color: #E5F9FA;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 999;
+  }
+  
+  #chat-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  #chat-icon:hover {
+    background-color: #ddd;
+  }
+  
+  .chat-header {
+    background-color: #094754;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .chat-box {
+    padding: 10px 30px;
+    background-color: #fff;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#send-button {
+    background-color:  #0F7B94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send-button:hover {
+    background-color: #094754;
+}
+
+/* Add these styles to your existing CSS or create a new section for button styles */
+
+/* Style for predefined question buttons */
+.question-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5DD3D7;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.question-button:hover {
+    background-color: #094754;
+}
+
+/* Style for chatbox messages */
+.chat-box div {
+    margin: 10px 0;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+.chat-box div:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Style for user's messages (both predefined and user-inputted) */
+.user-message {
+    text-align: right;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    clear: both;
+}
+
+/* Style for user's message text (both predefined and user-inputted) */
+.user-message .message-text {
+    color: black; /* Change the color to black or your desired color */
+}
+
+/* Add this to your main CSS file or in a style tag in your HTML file */
+#chat-container.closed {
+  display: none;
+}
+
+  
+  #close-chat {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #close-chat:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adjustments for right-side floating */
+  .chat-container.open {
+    right: 0;
+  }
