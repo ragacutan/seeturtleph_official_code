@@ -1,2 +1,0 @@
-[23-Nov-2023 10:43:21 UTC] PHP Fatal error:  Error: Cannot redeclare check_existing_email() in /home/yqkznkhu/public_html/backend/functions.php on line 323 in /home/yqkznkhu/public_html/backend/functions.php on line 324
-[23-Nov-2023 10:44:38 UTC] PHP Fatal error:  Error: Cannot redeclare check_existing_email() in /home/yqkznkhu/public_html/backend/functions.php on line 323 in /home/yqkznkhu/public_html/backend/functions.php on line 324
