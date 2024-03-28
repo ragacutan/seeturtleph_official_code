@@ -7,7 +7,7 @@ services:
     volumes: 
       - ./src:/var/www/html
     ports:
-      - 9040:80
+      - 9050:80
   mysql_db:
     image: mysql:latest
     container_name: 'mysql_turtle'
@@ -24,4 +24,4 @@ services:
       PMA_USER: root
       PMA_PASSWORD: root
     ports:
-      - 9041:80
+      - 9051:80

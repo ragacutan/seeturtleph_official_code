@@ -20,8 +20,8 @@
           <!--<li><a href="user_side/news.php">NEWS</a></li>-->
           <!--<li><a href="user_side/about.php" style="margin-right: 30px;">ABOUT</a></li>-->
 
-          <a href="user_side/login.php"" class=" btn-login">LOGIN</a>
-          <a href="user_side/signup.php" class="btn-join">JOIN</a>
+          <a href="user-side/login.php"" class=" btn-login">LOGIN</a>
+          <a href="user-side/signup.php" class="btn-join">JOIN</a>
         </ul>
       </nav><!-- .navbar -->
 

@@ -69,6 +69,20 @@ if ($_POST['submit']) {
 			$errors[] = "The email address or password that you've entered does not match any account.";
 		}
 	}
+
+	//Redirect to government Account
+	if (empty($errors) && $user->account_type == "government") {
+		$user = login_account($_POST['email'], $_POST['password']);
+		if (!empty($user)) {
+			$_SESSION['id'] = $user['id'];
+			$_SESSION['lastName'] = $user['lastName'];
+			$_SESSION['firstName'] = $user['firstName'];
+
+			header("Location: ../government/index.php");
+		} else {
+			$errors[] = "The email address or password that you've entered does not match any account.";
+		}
+	}
 }
 ?>
 
