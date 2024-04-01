@@ -35,6 +35,7 @@ if ($_POST['submit']) {
 			$_SESSION['id'] = $user['id'];
 			$_SESSION['lastName'] = $user['lastName'];
 			$_SESSION['firstName'] = $user['firstName'];
+			$_SESSION['email'] = $user['email'];
 
 			header("Location: index.php");
 		} else {
@@ -77,6 +78,7 @@ if ($_POST['submit']) {
 			$_SESSION['id'] = $user['id'];
 			$_SESSION['lastName'] = $user['lastName'];
 			$_SESSION['firstName'] = $user['firstName'];
+			$_SESSION['email'] = $user['email'];
 
 			header("Location: ../government/index.php");
 		} else {
@@ -90,7 +92,7 @@ if ($_POST['submit']) {
 <?php include "layouts/_header.php" ?>
     <div class="pre-loader">
         <div class="pre-loader-box">
-            <div class="loader-logo"><img src="src/images/curma_logo2.png" alt=""></div>
+            <!-- <div style="display: flex;"><img style="width: 25%; height: auto; align-items: center;" src="src\images\see-logo-white-2.png" alt=""></div> -->
             <div class='loader-progress' id="progress_div">
                 <div class='bar' id='bar1'></div>
             </div>
@@ -105,7 +107,7 @@ if ($_POST['submit']) {
 		<div class="container-fluid d-flex justify-content-between align-items-center">
 			<div class="brand-logo">
 				<a href="../index.php">
-					<img src="src/images/curma-logo-dark.png" alt="">
+					<img src="src\images\see-logo-dark.png" alt="">
 
 				</a>
 			</div>
@@ -123,7 +125,7 @@ if ($_POST['submit']) {
 					<div class="login-box bg-white box-shadow border-radius-10">
 						<form method="POST">
 							<div class="login-title">
-								<h2 class="text-center text-primary">Login To See Turtles</h2>
+								<h2 class="text-center text-primary">Login To SEE Turtles</h2>
 								<span style="font-size: 20px;">
 									<?php if (!empty($errors)) { ?>
 										<?php include "../layouts/_error-messages.php" ?>
@@ -131,7 +133,7 @@ if ($_POST['submit']) {
 								</span>
 							</div>
 							<div class="input-group custom">
-								<input type="email" name="email" class="form-control form-control-lg" value="<?= $_POST['email'] ?>" placeholder="Username">
+								<input type="text" name="email" class="form-control form-control-lg" value="<?= $_POST['email'] ?>" placeholder="username">
 								<div class="input-group-append custom">
 									<span class="input-group-text"><i class="icon-copy dw dw-user1"></i></span>
 								</div>

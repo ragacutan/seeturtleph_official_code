@@ -27,7 +27,7 @@ $result2 = mysqli_query($connection, "SELECT * FROM participants WHERE user_id =
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img class="see_logo" src="../assets/img/main_page/see_logo.png" alt="">
+        <img class="see_logo" src="src\images\see-logo-white-2.png" alt="">
       </a>
       <nav id="navbar" class="navbar">
         <ul>

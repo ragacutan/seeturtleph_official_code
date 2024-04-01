@@ -234,8 +234,8 @@
     <div class="left-side-bar">
         <div class="brand-logo">
             <a href="index.html">
-                <img src="src/images/curma-logo-dark.png" alt="" class="dark-logo">
-                <img src="src/images/curma_logo_light.png" alt="" class="light-logo">
+                <img src="src\images\see-logo-white-2.png" alt="" class="dark-logo">
+                <img src="src\images\see-logo-white-2.png" alt="" class="light-logo">
             </a>
             <div class="close-sidebar" data-toggle="left-sidebar-close">
                 <i class="ion-close-round"></i>

@@ -43,7 +43,7 @@ if (isset($_POST["submit"])) {
                 <div class="dropdown">
                     <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                         <span class="user-icon">
-                            <img src="src/images/logo_profile.png" alt="">
+                            <img src="" alt="">
                         </span>
                         <span class="user-name">
                             <?= $_SESSION['firstName'] ?>
@@ -61,8 +61,8 @@ if (isset($_POST["submit"])) {
     <div class="left-side-bar">
         <div class="brand-logo">
             <a href="index.php">
-                <img src="src/images/curma-logo-dark.png" alt="" class="dark-logo">
-                <img src="src/images/curma_logo_light.png" alt="" class="light-logo">
+                <img src="src\images\see-logo-white-2.png" alt="" class="dark-logo">
+                <img src="src\images\see-logo-white-2.png" alt="" class="light-logo">
             </a>
             <div class="close-sidebar" data-toggle="left-sidebar-close">
                 <i class="ion-close-round"></i>
@@ -132,10 +132,10 @@ if (isset($_POST["submit"])) {
                         </div>
                         
                         <div class="form-group row">
-                            <label class="col-sm-12 col-md-2 col-form-label">Email:</label>
+                            <label class="col-sm-12 col-md-2 col-form-label">Username:</label>
                             <div class="col-sm-12 col-md-10">
                                 <input class="form-control" name="email" id="email" value="<?= $_POST['email'] ?>"
-                                    placeholder="Email" type="email" required>
+                                    placeholder="username" type="text" required>
                             </div>
                         </div>
 
